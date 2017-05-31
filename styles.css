@@ -1,0 +1,17 @@
+/* ----- COLOR PALETTE -----
+white:       rgba(255, 255, 255, 0.95);
+light gray:  rgba(239, 239, 239, 0.95);
+medium gray: #D0D0D0;
+medium blue: #2F6F83;
+dark blue:   #245161;
+dark gray:   #373737;  (basically blac.k)
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'HanziPen SC', Arial;
+  background: url('./assets/landscape-background-gray.jpg') no-repeat left top/cover;
+}
