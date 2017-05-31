@@ -1,9 +1,12 @@
 .search-bar {
-  width: 300px;
-  height: 40px;
+  width: 350px;
+  height: 32px;
   padding-left: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
   outline: none;
-  /*background: no-repeat url('/assets/search.svg') right center/10px;*/
+  background: url('/assets/search.svg') no-repeat 96% center/20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  /*background-image: url('/assets/search.svg');*/
 }
