@@ -1,5 +1,10 @@
 .welcome-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 90%;
   height: 300px;
-  background-color: gray;
+  margin: auto;
+  background-color: rgba(239, 239, 239, 0.95);
 }

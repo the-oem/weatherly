@@ -1,9 +1,9 @@
 .search-bar {
   width: 300px;
-  height: 20px;
+  height: 40px;
   padding-left: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   outline: none;
-  /*background: no-repeat url('assets/magnifying-glass.svg') right center/10px;*/
+  /*background: no-repeat url('/assets/search.svg') right center/10px;*/
 }
