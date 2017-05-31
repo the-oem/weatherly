@@ -12,6 +12,13 @@ dark gray:   #373737;  (basically blac.k)
 }
 
 body {
-  font-family: 'HanziPen SC', Arial;
-  background: url('./assets/landscape-background-gray.jpg') no-repeat left top/cover;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  background: url('./assets/landscape-background-gray.jpg') no-repeat center/cover fixed;
+}
+
+h1, h2 {
+  font-family: 'HanziPen SC', 'Arial Rounded MT Bold', sans-serif;
+  font-style: normal;
+  color: #245161;
 }

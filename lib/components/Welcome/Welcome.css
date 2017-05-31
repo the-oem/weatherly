@@ -8,3 +8,12 @@
   margin: auto;
   background-color: rgba(239, 239, 239, 0.95);
 }
+
+button {
+  background-color: #D0D0D0;
+  border: none;
+  width: 100px;
+  height: 32px;
+  border-radius: 16px;
+  outline: none;
+}
