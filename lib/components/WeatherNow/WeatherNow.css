@@ -1,0 +1,39 @@
+.weather-now {
+  width: 90%;
+  padding: 10px;
+  background-color: rgba(239, 239, 239, .95);
+}
+
+.date-location{
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-conditions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.current-temp {
+  font-size: 2em;
+}
+
+.condition-image {
+  height: 110px;
+}
+
+.temps-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.high-low {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.high-low-line {
+  border-color: #537983;
+}
