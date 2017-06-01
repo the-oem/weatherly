@@ -1,3 +1,7 @@
+p {
+  font-size: 1.5em;
+}
+
 .weather-now {
   padding: 10px;
   background-color: rgba(239, 239, 239, .95);
@@ -15,7 +19,7 @@
 }
 
 .current-temp {
-  font-size: 2em;
+  font-size: 3.375em;
 }
 
 .condition-image {
@@ -28,11 +32,20 @@
   justify-content: space-around;
 }
 
+.temps-summary p {
+  margin: auto 20px;
+}
+
 .high-low {
+  margin: 0 50px;
   text-align: center;
   font-size: 1.4em;
 }
 
+.high-low p {
+  margin: 20px 0;
+}
+
 .high-low-line {
-  border-color: #537983;
+  border: 2px solid #2F6F83;
 }
