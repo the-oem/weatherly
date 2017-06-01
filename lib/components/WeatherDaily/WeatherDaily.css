@@ -1,14 +1,14 @@
-.weather-hourly {
+.weather-daily {
   display: flex;
   flex-direction: row;
   background-color: rgba(239, 239, 239, .95);
 }
 
-.weather-hourly img {
-  width: 100px;
+.weather-daily .weather-card {
+  width: 10%;
+  height: 350px;
 }
 
-.weather-hourly .weather-card {
-  width: 14.29%;
-  height: 350px;
+.weather-daily img {
+  width: 80px;
 }
