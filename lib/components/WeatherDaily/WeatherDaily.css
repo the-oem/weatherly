@@ -1,6 +1,14 @@
 .weather-daily {
-  padding: 10px;
-  background-color: rgba(239, 239, 239, .95);
   display: flex;
   flex-direction: row;
+  background-color: rgba(239, 239, 239, .95);
+}
+
+.weather-daily .weather-card {
+  width: 10%;
+  height: 350px;
+}
+
+.weather-daily img {
+  width: 80px;
 }

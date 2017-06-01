@@ -1,6 +1,14 @@
 .weather-hourly {
-  padding: 10px;
-  background-color: rgba(239, 239, 239, .95);
   display: flex;
   flex-direction: row;
+  background-color: rgba(239, 239, 239, .95);
+}
+
+.weather-hourly img {
+  width: 100px;
+}
+
+.weather-hourly .weather-card {
+  width: 14.29%;
+  height: 350px;
 }

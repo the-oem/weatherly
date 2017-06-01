@@ -4,9 +4,13 @@
   padding-left: 10px;
   border: none;
   border-radius: 16px;
-  margin-bottom: 20px;
-  outline: none;
   background: url('/assets/search.svg') no-repeat 96% center/20px;
   background-color: rgba(255, 255, 255, 0.95);
   /*background-image: url('/assets/search.svg');*/
+  outline: none;
+}
+
+.search-bar::placeholder {
+  font-style: italic;
+  
 }
