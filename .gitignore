@@ -1,3 +1,6 @@
+# Ignore API Key
+*apiKey.js
+
 # Ignore Mac DS_Store
 *.DS_Store
 
