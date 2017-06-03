@@ -7,10 +7,6 @@
   font-size: 2.25em;
 }
 
-.weather-full p {
-  color: #373737;
-}
-
 .weather-full button {
   background-color: rgba(239, 239, 239, 0.95);
   border-radius: 0;
