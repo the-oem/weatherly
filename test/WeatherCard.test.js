@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import Header from '../lib/components/Header/Header';
+import WeatherCard from '../lib/components/WeatherCard/WeatherCard';
+// import testData
 
-describe.skip('Header', () => {
+describe.skip('WeatherCard', () => {
   it('should render', () => {
-
-
+    var component = shallow(<WeatherCard type="daily" data='');
 
   });
 });
