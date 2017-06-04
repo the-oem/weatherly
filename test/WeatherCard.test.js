@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import WeatherCard from '../lib/components/WeatherCard/WeatherCard';
+<<<<<<< HEAD
 import { cleanTestData } from './data/test-data';
 
 describe('Daily WeatherCard', () => {
@@ -64,5 +65,13 @@ describe('Hourly WeatherCard', () => {
     var tempLow = component.find('p.temp-low');
 
     expect(tempLow).toHaveLength(0);
+=======
+// import testData
+
+describe.skip('WeatherCard', () => {
+  it('should render', () => {
+    var component = shallow(<WeatherCard type="daily" data='');
+
+>>>>>>> 517988166f62551a093335789ea4748406b58421
   });
 });
