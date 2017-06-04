@@ -8,6 +8,13 @@
     "build": "webpack.js",
     "test": "jest"
   },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "./__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "setupFiles":["./__mocks__/localStorageMock.js"]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/turingschool-examples/react-starter-kit.git"
@@ -36,6 +43,7 @@
     "eslint-plugin-import": "^1.8.0",
     "eslint-plugin-jsx-a11y": "^1.2.2",
     "eslint-plugin-react": "^5.1.1",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^20.0.4",
     "mocha": "^2.4.5",
     "mocha-loader": "^0.7.1",
