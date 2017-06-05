@@ -17,3 +17,7 @@
   font-style: italic;
   font-size: 2.25em;
 }
+
+.weather-card .high-low-line {
+  width: 40px;
+}
