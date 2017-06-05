@@ -1,6 +1,5 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { expect } from 'jest';
 import WeatherCard from '../lib/components/WeatherCard/WeatherCard';
 import { cleanTestData } from './data/test-data';
 
