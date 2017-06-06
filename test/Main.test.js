@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow, mount } from 'enzyme';
 import Main from '../lib/components/Main/Main';
 
-describe.only('Main', () => {
+describe('Main', () => {
   it('should be stateful', () => {
     const main = shallow(<Main />);
 
@@ -27,9 +27,5 @@ describe.only('Main', () => {
 
     ls.setItem('location', 12345);
     expect(main.instance().getLocation()).toEqual('12345');
-  });
-
-  it('should render', () => {
-
   });
 });
