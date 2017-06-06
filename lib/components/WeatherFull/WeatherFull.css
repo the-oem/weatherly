@@ -8,11 +8,11 @@
 }
 
 .weather-full button {
-  background-color: rgba(239, 239, 239, 0.95);
-  border-radius: 0;
-  border: 1px solid #D0D0D0;
   width: 100%;
   margin: 0;
+  border-radius: 0;
+  border: 1px solid #D0D0D0;
+  background-color: rgba(239, 239, 239, 0.95);
 }
 
 .weather-full button:hover {
