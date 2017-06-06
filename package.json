@@ -60,7 +60,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "@theoem/complete-me": "0.0.4",
+    "@theoem/complete-me": "0.0.6",
     "jquery": "^3.2.1",
     "moment": "^2.18.1"
   }
