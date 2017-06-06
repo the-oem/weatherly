@@ -21,3 +21,22 @@
 .weather-card .high-low-line {
   width: 40px;
 }
+
+.weather-card .temp-high {
+  margin-bottom: 5px;
+}
+
+.weather-card .temp-low {
+  margin-top: 6px;
+}
+
+
+@media (max-width: 875px) {
+  .weather-card {
+    flex-direction: row;
+  }
+  
+  .weather-card .temp-low, .weather-card .temp-high {
+    margin: 0;
+  }
+}
