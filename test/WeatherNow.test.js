@@ -11,9 +11,8 @@ describe('WeatherNow', () => {
   });
 
   it('should render the DATE', () => {
-    console.log(component.debug());
     const date = component.find('#date');
-    expect(date.text()).toEqual('Wednesday, May 31st 2017');
+    expect(date.text()).toEqual('Wednesday, May 31st, 2017');
   });
 
   it('should render the LOCATION', () => {

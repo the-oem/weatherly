@@ -5,7 +5,7 @@ import { cleanTestData } from './data/test-data';
 
 describe('WeatherHourly', () => {
   it('should render seven WeatherCards', () => {
-    let component = mount(<WeatherHourly hourly={cleanTestData.hourly} />);
+    const component = mount(<WeatherHourly hourly={cleanTestData.hourly} />);
     const cards = component.find('div.weather-card');
     expect(cards).toHaveLength(7);
   });
