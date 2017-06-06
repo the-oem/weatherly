@@ -29,3 +29,14 @@
 .weather-card .temp-low {
   margin-top: 6px;
 }
+
+
+@media (max-width: 875px) {
+  .weather-card {
+    flex-direction: row;
+  }
+  
+  .weather-card .temp-low, .weather-card .temp-high {
+    margin: 0;
+  }
+}

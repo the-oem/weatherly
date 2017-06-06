@@ -12,3 +12,31 @@
 .weather-daily img {
   width: 80px;
 }
+
+@media (max-width: 875px) {
+  .weather-daily {
+    flex-direction: column;
+  }
+
+  .weather-daily .weather-card {
+    width: 100%;
+    height: auto;
+  }
+  
+  .weather-daily .unit-of-time{
+    width: 14%;
+    margin-left: 95px;
+  }
+  
+  .weather-daily img {
+    margin: 0 95px 0 160px;
+  }
+
+  .weather-daily .high-low-line {
+    width: 10px;
+  }
+
+  .weather-daily .temp-low {
+    margin-right: 20px;
+  }
+}

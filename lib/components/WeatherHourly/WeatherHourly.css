@@ -12,3 +12,15 @@
   width: 14.29%;
   height: 350px;
 }
+
+@media (max-width: 875px) {
+  .weather-hourly {
+    flex-direction: column;
+  }
+
+  .weather-hourly .weather-card {
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+  }
+}
