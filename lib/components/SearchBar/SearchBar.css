@@ -3,15 +3,15 @@
 }
 
 .search-bar {
-  width: 350px;
+  width: 310px;
   height: 32px;
+  margin: 5px;
   padding-left: 10px;
   border: none;
   border-radius: 16px;
-  margin-top: 20px;
+  outline: none;
   background: url('/assets/search.svg') no-repeat 96% center/20px;
   background-color: rgba(255, 255, 255, 0.95);
-  outline: none;
 }
 
 .search-bar::placeholder {
@@ -21,11 +21,11 @@
 .search-bar-btn .suggestions-container {
   position: absolute;
   z-index: 1;
+  overflow: auto;
   width: 320px;
   max-height: 200px;
   margin: 1px 0 0 15px;
   background-color: #F5F5F5;
-  overflow: auto;
 }
 
 .suggestion-div {
@@ -33,6 +33,12 @@
 }
 
 .suggestion-div:hover {
-  background-color: #D0D0D0;
   cursor: pointer;
+  background-color: #D0D0D0;
+}
+
+@media screen and (min-width: 650px) {
+  .search-bar {
+    width: 350px;
+  }
 }
