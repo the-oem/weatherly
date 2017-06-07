@@ -37,6 +37,15 @@
   background-color: #D0D0D0;
 }
 
+#error-message {
+  position: relative;
+  left: 20px;
+  color: red;
+  font-size: 1.0em;
+  margin: 0;
+  padding: 3px;
+}
+
 @media screen and (min-width: 650px) {
   .search-bar {
     width: 350px;
