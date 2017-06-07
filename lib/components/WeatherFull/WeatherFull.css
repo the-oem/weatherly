@@ -19,3 +19,9 @@
 .weather-full button:hover {
   cursor: pointer;
 }
+
+.chevron-toggle {
+  width: 15px;
+  height: 15px;
+  margin: 0 10px;
+}
