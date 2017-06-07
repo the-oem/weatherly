@@ -28,8 +28,8 @@ To run all tests:
 
 ### Contributors
 
-Jason "JC" Collins : [GitHub Profile](https://github.com/the-oem)
-Lindsay Parker : [GitHub Profile](https://github.com/lindsaywparker)
+* Jason "JC" Collins : [GitHub Profile](https://github.com/the-oem)
+* Lindsay Parker : [GitHub Profile](https://github.com/lindsaywparker)
 
 ### License
 ISC
