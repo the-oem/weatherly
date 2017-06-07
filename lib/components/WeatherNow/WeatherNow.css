@@ -3,7 +3,7 @@
   }
 
   .weather-now {
-    padding: 0 35px 15px;
+    padding: 10px 15px 15px;
     background-color: rgba(239, 239, 239, .95);
   }
 
@@ -36,6 +36,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+  }
+
+  #todayCondition {
+    text-align: center;
+    font-size: 1.2em;
   }
 
   #date,
@@ -76,6 +81,9 @@
   }
 
   @media screen and (min-width: 650px) {
+    .weather-now {
+      padding: 10px 20px 15px;
+    }
     .current-conditions {
       justify-content: space-around;
     }
@@ -91,6 +99,10 @@
     #currentCondition {
       flex: 0 0;
     }
+    #todayCondition {
+      text-align: center;
+      font-size: 1.5em;
+    }
     #date,
     #location {
       font-size: 1.75em;
@@ -98,6 +110,9 @@
   }
 
   @media screen and (min-width: 900px) {
+    .weather-now {
+      padding: 10px 35px 15px;
+    }
     #date,
     #location {
       font-size: 2.25em;
