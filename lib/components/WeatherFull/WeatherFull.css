@@ -1,5 +1,6 @@
 .weather-full {
   width: 90%;
+  max-width: 1100px;
   margin: auto;
 }
 
@@ -10,8 +11,8 @@
 .weather-full button {
   width: 100%;
   margin: 0;
-  border-radius: 0;
   border: 1px solid #D0D0D0;
+  border-radius: 0;
   background-color: rgba(239, 239, 239, 0.95);
 }
 

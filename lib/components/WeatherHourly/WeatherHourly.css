@@ -1,26 +1,43 @@
 .weather-hourly {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: rgba(239, 239, 239, .95);
 }
 
 .weather-hourly img {
-  width: 100px;
+  width: 75px;
+  height: 75px;
+  margin: 10px 0;
+}
+
+.weather-hourly .temp-high {
+  margin: 24px 10px 24px 0;
 }
 
 .weather-hourly .weather-card {
-  width: 14.29%;
-  height: 350px;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
 }
 
-@media (max-width: 875px) {
-  .weather-hourly {
-    flex-direction: column;
-  }
+.weather-hourly .unit-of-time {
+  margin-left: 10px;
+}
 
+@media screen and (min-width: 650px) {
+  .weather-hourly {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .weather-hourly {
+    flex-wrap: nowrap;
+  }
   .weather-hourly .weather-card {
-    width: 100%;
-    height: auto;
-    justify-content: space-around;
+    width: 14.29%;
+    height: 320px;
   }
 }

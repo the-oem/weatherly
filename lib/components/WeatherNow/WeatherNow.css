@@ -1,52 +1,115 @@
-p {
-  font-size: 1.5em;
-}
+  p {
+    font-size: 1.5em;
+  }
 
-.weather-now {
-  padding: 0 35px 15px;
-  background-color: rgba(239, 239, 239, .95);
-}
+  .weather-now {
+    padding: 0 35px 15px;
+    background-color: rgba(239, 239, 239, .95);
+  }
 
-.date-location {
-  display: flex;
-  justify-content: space-between;
-}
+  .temps-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 
-.current-conditions {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+  .temps-summary p {
+    margin: auto 12px;
+  }
 
-.current-temp {
-  font-size: 3.375em;
-}
+  .high-low {
+    margin: 0 12px;
+    text-align: center;
+    font-size: 1.4em;
+  }
 
-.condition-image {
-  width: 250px;
-  height: 250px;
-}
+  .high-low p {
+    margin: 20px 0;
+  }
 
-.temps-summary {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
+  .high-low-line {
+    border: 2px solid #2F6F83;
+  }
 
-.temps-summary p {
-  margin: auto 20px;
-}
+  .date-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.high-low {
-  margin: 0 50px;
-  text-align: center;
-  font-size: 1.4em;
-}
+  #date,
+  #location {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
 
-.high-low p {
-  margin: 20px 0;
-}
+  .current-conditions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.high-low-line {
-  border: 2px solid #2F6F83;
-}
+  .condition-image {
+    width: 75px;
+    height: 75px;
+  }
+
+  .current-temp {
+    margin: 10px 0;
+    font-size: 48px;
+  }
+
+  .current-temp,
+  .condition-image {
+    flex: 1 0 40%;
+  }
+
+  #currentCondition {
+    text-align: center;
+    flex: 0 1 100%;
+  }
+
+  #currentTemp {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 650px) {
+    .current-conditions {
+      justify-content: space-around;
+    }
+    .condition-image {
+      width: 175px;
+      height: 175px;
+    }
+    .current-temp {
+      font-size: 3.375em;
+    }
+    .current-temp,
+    .condition-image,
+    #currentCondition {
+      flex: 0 0;
+    }
+    #date,
+    #location {
+      font-size: 1.75em;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    #date,
+    #location {
+      font-size: 2.25em;
+    }
+    .date-location {
+      flex-direction: row;
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+    .condition-image {
+      width: 250px;
+      height: 250px;
+    }
+  }
